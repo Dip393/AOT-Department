@@ -1,0 +1,155 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+header {
+    background-color: #cde9f4;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #13008f;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    height: 300px;
+    background-image: url('EE2.2.png');
+    background-size: cover;
+    color: #3848db;
+    text-align: center;
+    padding: 100px 0;
+}
+.banner p {
+    font-size: 1.3rem;
+}
+.main-content {
+    background-color: #b2be9c;
+    width: 100%;
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.dep {
+    height: 400px;
+    width: 80%;
+    background-color: #bababa;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.para {
+    height: 350px;
+    width: 55%;
+    padding: 2%;
+    font-size: 1rem;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+.para h1 {
+    margin-bottom: 20px;
+}
+.para p {
+    font-size: 1.2rem;
+}
+.para a {
+    background-color: #dbe7fa;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 10px;
+    align-self: flex-start;
+    position: relative;
+    top: 20px;
+    transition: font-size 0.1s ease-in 0s;
+}
+.para a:hover {
+    font-size: 1.5rem;
+}
+.img {
+    width: 45%;
+    height: 300px;
+    border-radius: 15px;
+}
+.cse {
+    background-image: url('CSE.png');
+    background-size: cover;
+}
+.csbs {
+    background-image: url('CSBS.jpg');
+    background-size: cover;
+}
+.ece {
+    background-image: url('ECE.jpg');
+    background-size: cover;
+}
+.eee {
+    background-image: url('EEE.jpeg');
+    background-size: cover;
+}
+.ee {
+    background-image: url('EE.jpg');
+    background-size: cover;
+}
+.me {
+    background-image: url('ME.webp');
+    background-size: cover;
+}
+.mca {
+    background-image: url('MCA.jpg');
+    background-size: cover;
+}
+.eshu {
+    background-image: url('ESHU.jpeg');
+    background-size: cover;
+}
+
+/* Footer Section */
+.footer-container {
+    background-color: #cde9f4;
+    width: 100%;
+    height: 300px;
+    color: #13008f;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-container a{
+    color: #13008f;
+    text-decoration: none;
+}
+.footer-link-box a:hover {
+    text-decoration: underline;
+}
+.footer-logo {
+    font-size: 2rem;
+}
